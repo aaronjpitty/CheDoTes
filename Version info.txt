@@ -1,0 +1,35 @@
+3.0 - 28.01.15 18:00 p.m.
+Board appears, has game message area and player info area
+Names of pieces appear on board and actual pieces created
+Piece classes filled out
+Can now move pieces, no rules enforced but remembers team and type.
+Removes piece from old position and puts it in new position.
+Comments added
+Started creating Rook move() method - does not cause issues for rest of program but is not fully implemented
+Rook had many issues, spent time fixing, still not properly finding available places but is working
+Rook now working! Partially! It will display areas rook can go to in yellow but does not take into account other pieces.
+Stuff works
+Rook now gets stopped by other pieces. Should be simpler to implement other movements now.
+Rook cannot move onto areas that are not valid, yay. Will now attempt other pieces.
+Pawn now partially working and not throwing errors currently.
+Pawns now have move and firstMove working. Need to implement capture and no capturing straight forward.
+Pawns can no longer move backwards.
+Pawns can now capture.
+Bishops partially working. Square rules need reworking as they cannot be applied to rook. Only works on 'straight' movement.
+Bishops still bad.
+King working.
+Knight working.
+Rook no longer allowed to sit on same position as a move.
+Queen partially working, has same problems as Bishop.
+Pawns behaving again?
+Still working on diagonal movement.
+Tidied up movement stuff.
+En passant working.
+Promotion working.
+Some stuff seems odd - investigate.
+Commenting.
+Promotion screws up pawns, promoted pawn works but when removed claims 'pawn removed' and other pawns have affected movement.
+Castling partially implemented. Needs to change boolean for castling possible.
+Castling fully implemented, promotion still strange.
+King now moving properly, had been affected by castling.
+Attempted check.
